@@ -10,16 +10,3 @@ El enlace te llevará a una GUI de Swagger en donde se encuentra toda la documen
 El proyecto está desplegado en Amazon, en una instancia EC2 con una IP elástica.
 
 IP: **18.229.231.234**
-
-## Ejecución
-El proyecto se encuentra en **/home/ubuntu/testdeveloper/**
-
-La app esta corriendo como servicio con el nombre de "testdeveloper" 
-
-Para correr el servicio podemos hacer ---> "sudo systemctl start testdeveloper".
-
-Para verificar el estado del servicicio ---> "sudo systemctl status testdeveloper".
-
-Para detener el servicio ---> "sudo systemctl stop testdeveloper".
-
-Para reiniciar el servicio ---> "sudo systemctl restart testdeveloper".
